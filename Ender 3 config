@@ -5,8 +5,8 @@
 serial: /dev/serial/by-id/usb-Klipper_stm32f446xx_11003D001450324E31333220-if00
 restart_method: command
 
-[mcu rpi]
-serial: /tmp/klipper_host_mcu
+#[mcu rpi]
+#serial: /tmp/klipper_host_mcu
 
 ###############
 ### Printer ###
@@ -64,7 +64,7 @@ position_max: 235
 homing_speed: 50
 
 
-[stepper_z]
+
 [stepper_z]
 step_pin: PF11
 dir_pin: PG3
